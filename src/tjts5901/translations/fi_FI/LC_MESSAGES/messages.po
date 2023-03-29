@@ -1,0 +1,415 @@
+# Finnish (Finland) translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-16 14:25+0000\n"
+"PO-Revision-Date: 2023-02-14 13:17+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi_FI\n"
+"Language-Team: fi_FI <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: src/tjts5901/app.py:77
+msgid "13th auction app"
+msgstr "13th huutokauppa sovellus"
+
+#: src/tjts5901/app.py:111 tests/test_i18n.py:77 tests/test_i18n.py:100
+msgid "Hello, World!"
+msgstr "Hei Maailma!"
+
+#: src/tjts5901/auth.py:57
+msgid "Username is required."
+msgstr "Käyttäjänimi vaadittu."
+
+#: src/tjts5901/auth.py:59
+msgid "Password is required."
+msgstr "Salasana vaadittu."
+
+#: src/tjts5901/auth.py:61
+msgid "Passwords do not match."
+msgstr "Salasanat eivät täsmää."
+
+#: src/tjts5901/auth.py:63
+msgid "You must agree to the terms."
+msgstr "Käyttöehdot ovat hyväksyttävä."
+
+#: src/tjts5901/auth.py:72
+msgid "You have been registered. Please log in."
+msgstr "Sinut on rekistöröity. Kirjaudu sisään."
+
+#: src/tjts5901/auth.py:95 src/tjts5901/auth.py:98
+msgid "Incorrect username."
+msgstr "Väärä Käyttäjänimi."
+
+#: src/tjts5901/auth.py:100
+msgid "Incorrect password."
+msgstr "Väärä salasana."
+
+#: src/tjts5901/auth.py:116
+msgid "You have been logged out."
+msgstr "Sinut on kirjattu ulos."
+
+#: src/tjts5901/items.py:59 src/tjts5901/items.py:96
+msgid "Title is required."
+msgstr "Otsikko vaadittu."
+
+#: src/tjts5901/items.py:61
+msgid "Starting bid must be greater than 0."
+msgstr "Aloitushinnan pitää olla suurempi kuin 0"
+
+#: src/tjts5901/items.py:105
+msgid "Item updated successfully!"
+msgstr "Tuote päivitetty onnistuneesti!"
+
+#: src/tjts5901/items.py:125
+msgid "Item deleted successfully!"
+msgstr "Tuote poistettu onnistuneesti!"
+
+#: src/tjts5901/templates/auction.html:24
+msgid "For sale: "
+msgstr "Myynnissä: "
+
+#: src/tjts5901/templates/auction.html:26
+msgid "Auction closes in:"
+msgstr "Tuote sulkeutuu:  "
+
+#: src/tjts5901/templates/auction.html:32
+msgid "Category: "
+msgstr "Kategoria: "
+
+#: src/tjts5901/templates/auction.html:36
+msgid "Subcategory"
+msgstr "Alakategoria: "
+
+#: src/tjts5901/templates/auction.html:40
+msgid "Initial price: "
+msgstr "Aloitushinta"
+
+#: src/tjts5901/templates/auction.html:45
+#, fuzzy
+msgid "Description: "
+msgstr "Kuvaus: "
+
+#: src/tjts5901/templates/auction.html:61
+msgid "Owner: "
+msgstr "Omistaja: "
+
+#: src/tjts5901/templates/auction.html:61
+msgid "Owner data maybe here"
+msgstr "Omistajan data ehkä tänne"
+
+#: src/tjts5901/templates/auction.html:64
+msgid "Share on social media:"
+msgstr "Jaa sosiaalisessa mediassa:"
+
+#: src/tjts5901/templates/auction.html:69
+msgid "Bids:"
+msgstr "Huudot:"
+
+#: src/tjts5901/templates/auction.html:71
+msgid "Current top bid: "
+msgstr "tämänhetkinen korkein huuto:"
+
+#: src/tjts5901/templates/auction.html:74
+msgid "Latest bid: "
+msgstr "Viimeisin huuto:"
+
+#: src/tjts5901/templates/auction.html:75
+msgid "maybe later bids and their data visible."
+msgstr "ehkä myöhemmät huudot ja data tähän."
+
+#: src/tjts5901/templates/auction.html:81
+msgid "Make a bid: "
+msgstr "Tee tarjous:"
+
+#: src/tjts5901/templates/auction.html:83
+msgid "Bid!"
+msgstr "Huuto!"
+
+#: src/tjts5901/templates/auction.html:94
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/tjts5901/templates/auction.html:98
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/tjts5901/templates/auction.html:102
+msgid "Email to friend"
+msgstr "Sähköposti kaverille"
+
+#: src/tjts5901/templates/base.html:53
+msgid "Home"
+msgstr "Etusivu"
+
+#: src/tjts5901/templates/base.html:56
+msgid "Sell"
+msgstr "Myy"
+
+#: src/tjts5901/templates/base.html:59
+msgid "About"
+msgstr "Tietoa"
+
+#: src/tjts5901/templates/base.html:65
+msgid "Log Out"
+msgstr "Kirjaudu ulos"
+
+#: src/tjts5901/templates/base.html:67
+msgid "Register"
+msgstr "Rekistöröidy"
+
+#: src/tjts5901/templates/base.html:68
+msgid "Log In"
+msgstr "Kirjaudu sisään"
+
+#: src/tjts5901/templates/base.html:72 src/tjts5901/templates/base.html:73
+msgid "Search"
+msgstr "Etsi"
+
+#: src/tjts5901/templates/base.html:78
+msgid "Language"
+msgstr "Kieli"
+
+#: src/tjts5901/templates/index.html.j2:30
+msgid "My Items"
+msgstr "Tuotteeni"
+
+#: src/tjts5901/templates/index.html.j2:34
+msgid "Here's a form to add a new auction."
+msgstr "Tästä voit lisätä tuotteen."
+
+#: src/tjts5901/templates/index.html.j2:40
+#, fuzzy
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: src/tjts5901/templates/index.html.j2:44
+#, fuzzy
+msgid "Choose category:"
+msgstr "Kategoria:"
+
+#: src/tjts5901/templates/index.html.j2:48
+#, fuzzy
+msgid "Choose subcategory:"
+msgstr "Alakategoria:"
+
+#: src/tjts5901/templates/index.html.j2:54
+#, fuzzy
+msgid "Starting price:"
+msgstr "Aloitushinta:"
+
+#: src/tjts5901/templates/index.html.j2:57
+msgid "Currency:"
+msgstr "Valuutta:"
+
+#: src/tjts5901/templates/index.html.j2:64
+msgid "Available in:"
+msgstr "Saatavilla:"
+
+#: src/tjts5901/templates/index.html.j2:70
+#, fuzzy
+msgid "Description:"
+msgstr "Kuvaus:"
+
+#: src/tjts5901/templates/index.html.j2:73
+#, fuzzy
+msgid "Start auction"
+msgstr "Aloita huutokauppa"
+
+#: src/tjts5901/templates/index.html.j2:81
+msgid "Here is listing of my own items and bids and ways to edit them."
+msgstr "Tässä omat tuotteeni, huudot sekä muokkaaminen."
+
+#: src/tjts5901/templates/index.html.j2:89
+msgid "Here is a list of my old items."
+msgstr "Tässä lista vanhoista tuotteistani."
+
+#: src/tjts5901/templates/index.html.j2:102
+#, fuzzy
+msgid "My account"
+msgstr "Käyttäjäni"
+
+#: src/tjts5901/templates/index.html.j2:104
+msgid "Here's info on the user account."
+msgstr "Tähän tietoa käyttäjästä."
+
+#: src/tjts5901/templates/index.html.j2:110
+msgid "Open auctions"
+msgstr "Avoimet huudot"
+
+#: src/tjts5901/templates/index.html.j2:116
+msgid "Here's is listing of all(?) on going auctions."
+msgstr "Tässä listaus kaikista tuotteista.
+
+#: src/tjts5901/templates/index.html.j2:125
+msgid "Press this if you feel like it"
+msgstr "Paina tätä jos siltä tuntuu"
+
+#: src/tjts5901/templates/index.html.j2:128
+msgid " I hope clicking helped. Have a nice day"
+msgstr "Toivottavasti tuli hyvä mieli. Hyvää päivänjatkoa."
+
+#: src/tjts5901/templates/auth/login.html:32
+#: src/tjts5901/templates/auth/register.html:13
+#: src/tjts5901/templates/login.html:16
+msgid "Email"
+msgstr "Sähköposti"
+
+#: src/tjts5901/templates/auth/login.html:33
+#: src/tjts5901/templates/auth/register.html:14
+#: src/tjts5901/templates/login.html:17
+msgid "Your email"
+msgstr "Sähköpostisi"
+
+#: src/tjts5901/templates/auth/login.html:40
+#: src/tjts5901/templates/auth/register.html:21
+#: src/tjts5901/templates/login.html:23
+msgid "Password"
+msgstr "Salasana"
+
+#: src/tjts5901/templates/login.html:24
+msgid "Your Password"
+msgstr "Salasanasi"
+
+#: src/tjts5901/templates/auth/login.html:51
+#: src/tjts5901/templates/login.html:33
+msgid "Remember me"
+msgstr "Muista minut"
+
+#: src/tjts5901/templates/login.html:36
+msgid "Lost Password?"
+msgstr "Kadotitko salasanasi?"
+
+#: src/tjts5901/templates/auth/login.html:57
+#: src/tjts5901/templates/login.html:39
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: src/tjts5901/templates/auth/login.html:4
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: src/tjts5901/templates/auth/login.html:25
+msgid "Sign in to our platform"
+msgstr "Kirjaudu sisään palveluumme"
+
+#: src/tjts5901/templates/auth/login.html:41
+#: src/tjts5901/templates/auth/register.html:22
+msgid "Your password"
+msgstr "Salasanasi"
+
+#: src/tjts5901/templates/auth/login.html:54
+msgid "Lost password?"
+msgstr "Kadotitko salasanasi?"
+
+#: src/tjts5901/templates/auth/login.html:61
+msgid "Not registered?"
+msgstr "Etkö ole rekistöröitynyt?"
+
+#: src/tjts5901/templates/auth/login.html:62
+msgid "Create an account"
+msgstr "Luo käyttäjä"
+
+#: src/tjts5901/templates/auth/register.html:25
+#: src/tjts5901/templates/auth/register.html:26
+msgid "Confirm password"
+msgstr "Varmista salasana"
+
+#: src/tjts5901/templates/auth/register.html:36
+#, python-format
+msgid "I agree to the %(terms)s"
+msgstr "Hyväksyn käyttöehdot %(terms)s"
+
+#: src/tjts5901/templates/auth/register.html:36
+msgid "terms and conditions"
+msgstr "Käyttöehdot"
+
+#: src/tjts5901/templates/auth/register.html:41
+msgid "Register account"
+msgstr "Rekistöröi käyttäjä"
+
+#: src/tjts5901/templates/auth/register.html:45
+msgid "Already have an account?"
+msgstr "Omistatko jo käyttäjän?"
+
+#: src/tjts5901/templates/auth/register.html:46
+msgid "Login here"
+msgstr "Kirjaudu tästä"
+
+#: src/tjts5901/templates/items/index.html:20
+msgid "Items on sale"
+msgstr "Myynnissä olevat tuotteet"
+
+#: src/tjts5901/templates/items/index.html:31
+#: src/tjts5901/templates/items/sell.html:15
+#: src/tjts5901/templates/items/update.html:17
+msgid "Title"
+msgstr "Otsikko"
+
+#: src/tjts5901/templates/items/index.html:32
+#: src/tjts5901/templates/items/sell.html:19
+#: src/tjts5901/templates/items/update.html:21
+msgid "Description"
+msgstr "Kuvaus"
+
+#: src/tjts5901/templates/items/index.html:33
+msgid "Starting Bid"
+msgstr "Aloitushinta"
+
+#: src/tjts5901/templates/items/index.html:34
+msgid "Seller"
+msgstr "Myyjä"
+
+#: src/tjts5901/templates/items/index.html:35
+msgid "Created At"
+msgstr "Luotu"
+
+#: src/tjts5901/templates/items/index.html:36
+msgid "Closes At"
+msgstr "Sulkeutuu"
+
+#: src/tjts5901/templates/items/index.html:45
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: src/tjts5901/templates/items/sell.html:4
+#: src/tjts5901/templates/items/sell.html:23
+msgid "Sell an Item"
+msgstr "Myy tuote"
+
+#: src/tjts5901/templates/items/sell.html:12
+msgid "Add Item"
+msgstr "Lisää tuote"
+
+#: src/tjts5901/templates/items/sell.html:27
+msgid "Add to Listing"
+msgstr "Lisää myyntiin"
+
+#: src/tjts5901/templates/items/update.html:12
+msgid "Update Item"
+msgstr "Päivitä tuote"
+
+#: src/tjts5901/templates/items/update.html:25
+msgid "Starting Price"
+msgstr "Aloitushinta"
+
+#: src/tjts5901/templates/items/update.html:30
+msgid "Update Listing"
+msgstr "Päivitä myynti-ilmoitus"
+
+#: src/tjts5901/templates/items/update.html:31
+msgid "Delete"
+msgstr "Poista"
+
+#~ msgid "Both email and password are required!"
+#~ msgstr "Sähköposti sekä salasana vaadittu!"
+

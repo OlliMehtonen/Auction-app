@@ -1,0 +1,415 @@
+# Czech (Česká Republika) translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-16 14:25+0000\n"
+"PO-Revision-Date: 2023-02-14 13:17+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cz_CZ\n"
+"Language-Team: cz_CZ <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: src/tjts5901/app.py:77
+msgid "13th auction app"
+msgstr "13th aukciová aplikáce"
+
+#: src/tjts5901/app.py:111 tests/test_i18n.py:77 tests/test_i18n.py:100
+msgid "Hello, World!"
+msgstr "Ahoj Svět!"
+
+#: src/tjts5901/auth.py:57
+msgid "Username is required."
+msgstr "Používateľskí jméno je povinný."
+
+#: src/tjts5901/auth.py:59
+msgid "Password is required."
+msgstr "Heslo je povinný"
+
+#: src/tjts5901/auth.py:61
+msgid "Passwords do not match."
+msgstr "Heslo alebo email se nezhodují."
+
+#: src/tjts5901/auth.py:63
+msgid "You must agree to the terms."
+msgstr "Suhlas s podmínkami používaní je nutný"
+
+#: src/tjts5901/auth.py:72
+msgid "You have been registered. Please log in."
+msgstr "Bili ste úspešne zaregistrovaný. Teraz se prihláste"
+
+#: src/tjts5901/auth.py:95 src/tjts5901/auth.py:98
+msgid "Incorrect username."
+msgstr "Nesprávne používateľské jméno."
+
+#: src/tjts5901/auth.py:100
+msgid "Incorrect password."
+msgstr "Nesprávne heslo."
+
+#: src/tjts5901/auth.py:116
+msgid "You have been logged out."
+msgstr "Bili ste odhlásený."
+
+#: src/tjts5901/items.py:59 src/tjts5901/items.py:96
+msgid "Title is required."
+msgstr "Název produktu je povinný."
+
+#: src/tjts5901/items.py:61
+msgid "Starting bid must be greater than 0."
+msgstr "Prvotný cena vášho predmetu musí byť väčší ako 0."
+
+#: src/tjts5901/items.py:105
+msgid "Item updated successfully!"
+msgstr "Váš predmet bol úspešne aktualizovaný!"
+
+#: src/tjts5901/items.py:125
+msgid "Item deleted successfully!"
+msgstr "Váš predmet bol úspešne vymazán!"
+
+#: src/tjts5901/templates/auction.html:24
+msgid "For sale: "
+msgstr "Na prodaj: "
+
+#: src/tjts5901/templates/auction.html:26
+msgid "Auction closes in:"
+msgstr "Aukcia sa uzavře za:  "
+
+#: src/tjts5901/templates/auction.html:32
+msgid "Category: "
+msgstr "Kategória: "
+
+#: src/tjts5901/templates/auction.html:36
+msgid "Subcategory"
+msgstr "Subkategória: "
+
+#: src/tjts5901/templates/auction.html:40
+msgid "Initial price: "
+msgstr "Prvotný cena: "
+
+#: src/tjts5901/templates/auction.html:45
+#, fuzzy
+msgid "Description: "
+msgstr "Popis: "
+
+#: src/tjts5901/templates/auction.html:61
+msgid "Owner: "
+msgstr "Majiteľ: "
+
+#: src/tjts5901/templates/auction.html:61
+msgid "Owner data maybe here"
+msgstr "Majiteľové dáta budou tu, možná..."
+
+#: src/tjts5901/templates/auction.html:64
+msgid "Share on social media:"
+msgstr "Zdíľejte na socialných médiach:"
+
+#: src/tjts5901/templates/auction.html:69
+msgid "Bids:"
+msgstr "Aukčné ponuky:"
+
+#: src/tjts5901/templates/auction.html:71
+msgid "Current top bid: "
+msgstr "Najvyšša ponuka: "
+
+#: src/tjts5901/templates/auction.html:74
+msgid "Latest bid: "
+msgstr "Aktuálna ponuka: "
+
+#: src/tjts5901/templates/auction.html:75
+msgid "maybe later bids and their data visible."
+msgstr "Možno v budúcnosti tu budú ponuky a ich dáta."
+
+#: src/tjts5901/templates/auction.html:81
+msgid "Make a bid: "
+msgstr "Vytvorte ponuku: "
+
+#: src/tjts5901/templates/auction.html:83
+msgid "Bid!"
+msgstr "Ponúknuť!"
+
+#: src/tjts5901/templates/auction.html:94
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/tjts5901/templates/auction.html:98
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/tjts5901/templates/auction.html:102
+msgid "Email to friend"
+msgstr "Email kamarátovi"
+
+#: src/tjts5901/templates/base.html:53
+msgid "Home"
+msgstr "Domov"
+
+#: src/tjts5901/templates/base.html:56
+msgid "Sell"
+msgstr "Predaj"
+
+#: src/tjts5901/templates/base.html:59
+msgid "About"
+msgstr "O nás"
+
+#: src/tjts5901/templates/base.html:65
+msgid "Log Out"
+msgstr "Odhlásiť"
+
+#: src/tjts5901/templates/base.html:67
+msgid "Register"
+msgstr "Registrovať"
+
+#: src/tjts5901/templates/base.html:68
+msgid "Log In"
+msgstr "Prihlásenie"
+
+#: src/tjts5901/templates/base.html:72 src/tjts5901/templates/base.html:73
+msgid "Search"
+msgstr "Hľadať"
+
+#: src/tjts5901/templates/base.html:78
+msgid "Language"
+msgstr "Jazyk"
+
+#: src/tjts5901/templates/index.html.j2:30
+msgid "My Items"
+msgstr "Moje predmety"
+
+#: src/tjts5901/templates/index.html.j2:34
+msgid "Here's a form to add a new auction."
+msgstr "Formulář na pridanie novej aukcii."
+
+#: src/tjts5901/templates/index.html.j2:40
+#, fuzzy
+msgid "Title:"
+msgstr "Názov:"
+
+#: src/tjts5901/templates/index.html.j2:44
+#, fuzzy
+msgid "Choose category:"
+msgstr "Vyberte kategóriu:"
+
+#: src/tjts5901/templates/index.html.j2:48
+#, fuzzy
+msgid "Choose subcategory:"
+msgstr "Vyberte Subkategóriu:"
+
+#: src/tjts5901/templates/index.html.j2:54
+#, fuzzy
+msgid "Starting price:"
+msgstr "Začiatoční cenna:"
+
+#: src/tjts5901/templates/index.html.j2:57
+msgid "Currency:"
+msgstr "Mena:"
+
+#: src/tjts5901/templates/index.html.j2:64
+msgid "Available in:"
+msgstr "Dostupní do:"
+
+#: src/tjts5901/templates/index.html.j2:70
+#, fuzzy
+msgid "Description:"
+msgstr "Popis:"
+
+#: src/tjts5901/templates/index.html.j2:73
+#, fuzzy
+msgid "Start auction"
+msgstr "Vytvorte aukci"
+
+#: src/tjts5901/templates/index.html.j2:81
+msgid "Here is listing of my own items and bids and ways to edit them."
+msgstr "List vašich aukcí a možnosť ich upravenia."
+
+#: src/tjts5901/templates/index.html.j2:89
+msgid "Here is a list of my old items."
+msgstr "List vašich predchádzajúcich aukcí."
+
+#: src/tjts5901/templates/index.html.j2:102
+#, fuzzy
+msgid "My account"
+msgstr "Múj účet"
+
+#: src/tjts5901/templates/index.html.j2:104
+msgid "Here's info on the user account."
+msgstr "Legendárne informaáicie o vašom účte."
+
+#: src/tjts5901/templates/index.html.j2:110
+msgid "Open auctions"
+msgstr "Prebiehajúci aukce"
+
+#: src/tjts5901/templates/index.html.j2:116
+msgid "Here's is listing of all(?) on going auctions."
+msgstr "List všekých prebiehajúcich aukcí.
+
+#: src/tjts5901/templates/index.html.j2:125
+msgid "Press this if you feel like it"
+msgstr "Zmáčkni ma ak sa na to cítite"
+
+#: src/tjts5901/templates/index.html.j2:128
+msgid " I hope clicking helped. Have a nice day"
+msgstr "Wow, vy ste to zmáčkli! Prajem prípmený deň."
+
+#: src/tjts5901/templates/auth/login.html:32
+#: src/tjts5901/templates/auth/register.html:13
+#: src/tjts5901/templates/login.html:16
+msgid "Email"
+msgstr "Email"
+
+#: src/tjts5901/templates/auth/login.html:33
+#: src/tjts5901/templates/auth/register.html:14
+#: src/tjts5901/templates/login.html:17
+msgid "Your email"
+msgstr "Váš email"
+
+#: src/tjts5901/templates/auth/login.html:40
+#: src/tjts5901/templates/auth/register.html:21
+#: src/tjts5901/templates/login.html:23
+msgid "Password"
+msgstr "Heslo"
+
+#: src/tjts5901/templates/login.html:24
+msgid "Your Password"
+msgstr "Vaše heslo"
+
+#: src/tjts5901/templates/auth/login.html:51
+#: src/tjts5901/templates/login.html:33
+msgid "Remember me"
+msgstr "zapamätaj si me"
+
+#: src/tjts5901/templates/login.html:36
+msgid "Lost Password?"
+msgstr "Zabudli ste heslo?"
+
+#: src/tjts5901/templates/auth/login.html:57
+#: src/tjts5901/templates/login.html:39
+msgid "Login"
+msgstr "Prihlásenie"
+
+#: src/tjts5901/templates/auth/login.html:4
+msgid "Log in"
+msgstr "Prihlásenie"
+
+#: src/tjts5901/templates/auth/login.html:25
+msgid "Sign in to our platform"
+msgstr "Prihlás sa do naši platfromy"
+
+#: src/tjts5901/templates/auth/login.html:41
+#: src/tjts5901/templates/auth/register.html:22
+msgid "Your password"
+msgstr "Vaše heslo"
+
+#: src/tjts5901/templates/auth/login.html:54
+msgid "Lost password?"
+msgstr "Zabudnuté heslo?"
+
+#: src/tjts5901/templates/auth/login.html:61
+msgid "Not registered?"
+msgstr "Nie ste registorvaný?"
+
+#: src/tjts5901/templates/auth/login.html:62
+msgid "Create an account"
+msgstr "Vytvoriť účet"
+
+#: src/tjts5901/templates/auth/register.html:25
+#: src/tjts5901/templates/auth/register.html:26
+msgid "Confirm password"
+msgstr "Potvrďte heslo"
+
+#: src/tjts5901/templates/auth/register.html:36
+#, python-format
+msgid "I agree to the %(terms)s"
+msgstr "súhlasím s %(terms)s"
+
+#: src/tjts5901/templates/auth/register.html:36
+msgid "terms and conditions"
+msgstr "podmínky používanií"
+
+#: src/tjts5901/templates/auth/register.html:41
+msgid "Register account"
+msgstr "Vytvoriť účet"
+
+#: src/tjts5901/templates/auth/register.html:45
+msgid "Already have an account?"
+msgstr "Už máte účet?"
+
+#: src/tjts5901/templates/auth/register.html:46
+msgid "Login here"
+msgstr "Prihlásiť"
+
+#: src/tjts5901/templates/items/index.html:20
+msgid "Items on sale"
+msgstr "Preíhajúce aukce"
+
+#: src/tjts5901/templates/items/index.html:31
+#: src/tjts5901/templates/items/sell.html:15
+#: src/tjts5901/templates/items/update.html:17
+msgid "Title"
+msgstr "Název"
+
+#: src/tjts5901/templates/items/index.html:32
+#: src/tjts5901/templates/items/sell.html:19
+#: src/tjts5901/templates/items/update.html:21
+msgid "Description"
+msgstr "Popis"
+
+#: src/tjts5901/templates/items/index.html:33
+msgid "Starting Bid"
+msgstr "Začiatočná ponuka"
+
+#: src/tjts5901/templates/items/index.html:34
+msgid "Seller"
+msgstr "Prodejce"
+
+#: src/tjts5901/templates/items/index.html:35
+msgid "Created At"
+msgstr "Vytvorené o"
+
+#: src/tjts5901/templates/items/index.html:36
+msgid "Closes At"
+msgstr "Uzavřeté o"
+
+#: src/tjts5901/templates/items/index.html:45
+msgid "Edit"
+msgstr "Upravit"
+
+#: src/tjts5901/templates/items/sell.html:4
+#: src/tjts5901/templates/items/sell.html:23
+msgid "Sell an Item"
+msgstr "Prodať predmet"
+
+#: src/tjts5901/templates/items/sell.html:12
+msgid "Add Item"
+msgstr "Pridať predmet"
+
+#: src/tjts5901/templates/items/sell.html:27
+msgid "Add to Listing"
+msgstr "Pridať do aukcí"
+
+#: src/tjts5901/templates/items/update.html:12
+msgid "Update Item"
+msgstr "Aktualiziovať predmet"
+
+#: src/tjts5901/templates/items/update.html:25
+msgid "Starting Price"
+msgstr "Prvotní cena"
+
+#: src/tjts5901/templates/items/update.html:30
+msgid "Update Listing"
+msgstr "Aktualizovať list"
+
+#: src/tjts5901/templates/items/update.html:31
+msgid "Delete"
+msgstr "Zrušiť"
+
+#~ msgid "Both email and password are required!"
+#~ msgstr "Meno a heslo sú potrebné!"
+

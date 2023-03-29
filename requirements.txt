@@ -1,0 +1,29 @@
+# Support library for versioning
+importlib-metadata
+
+# Framework and libraries
+flask
+flask-restful
+flask-rich
+pytest
+pyjwt
+flask_jwt_extended
+bcrypt
+requests
+flask-babel
+
+#DB connections
+pymongo
+python-dotenv
+
+flask-mongoengine==1.0
+
+# Git hooks
+pre-commit
+
+# Sentry for error reporting
+sentry-sdk[flask]
+sentry-sdk[pymongo]
+
+# More production-ready web server
+#gunicorn

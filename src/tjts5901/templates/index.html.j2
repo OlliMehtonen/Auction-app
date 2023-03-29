@@ -1,0 +1,142 @@
+{# Template file is in Jinja syntax:
+    https://jinja.palletsprojects.com/en/3.1.x/
+#}
+
+{% extends 'base.html' %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+    <h1>13th auction app</h1>
+
+    <!-- HERE IS AN EXAMPLE OF A TAB USED IN THE PAGE
+      I LEARNED THIS FROM web-palvelinohjelmointi COURSE BY Tommi Lahtonen
+<section>
+<input type="radio" name="tabs" id="ADDTABNAME" checked="checked" />
+<label for="ADDTABNAME">BUTTON LABEL</label>
+<div class="tab">
+        
+
+        
+        
+</div>
+</section>
+
+    -->
+<div class="mainpage">
+<section >
+<input type="radio" name="tabs" id="myitems"   checked="checked" />
+<label class="shaded"for="myitems">{{_("My Items")}}   </label>
+<div class="tab">
+  <div>
+    <div id="addauction">
+     {{_("Here's a form to add a new auction.")}}
+      
+     <!-- FORM TO ADD NEW ITEM AUCTION -->
+     <form action="submit" method="post" id="addauctionform" accept-charset="utf-8">
+
+     <!-- NAME OF ITEM FOR SALE -->
+       <label for="aafName"> {{_("Title:")}} </label>
+       <input type="text" value="" name="aafName" id="aafName" required pattern="(?=^\s*(?:[\w\.]\s*){5,32}$).{0,50}"/>
+
+     <!-- CATEGORY AND SUBCATEGORY SELECTION  -->
+       <label for="aafCat"> {{_("Choose category:")}} </label>
+       <select name="aafCat" id="aafCat"  size="1">
+         
+       </select>
+       <label for="aafSubCat"> {{_("Choose subcategory:")}} </label>
+       <select name="aafSubCat" id="aafSubCat"  size="1">
+         
+       </select>
+
+     <!-- STARTING PRICE INPUT -->
+       <label for="aafStartPrice"> {{_("Starting price:")}}</label>
+       <input type="number" value="0" name="aafStartPrice" step="1" min="1" id="aafStartPrice"/>
+       <span class="curtag"></span>
+        <!-- MOVED TO base.html   
+       <label for="aafCurr"> {{_("Currency:")}} </label>
+       <select name="aafCurr" id="aafCurr"  size="1">
+         
+       </select>
+         -->
+       <!-- DELIVERABLE TO  -->
+
+       <label for="aafContinents"> {{_("Available in:")}} </label>
+       <select name="aafContinents" id="aafContinents"  >
+         
+       </select>
+
+     <!-- ITEM DESCRIPTION -->
+       <label for="aafDesc"> {{_("Description:")}} </label>
+       <textarea name="aafDesc" id="aafDesc" form="addauctionform" required maxlength="150"></textarea>
+
+       <button id="aadButton"> {{_("Start auction")}} </button>
+
+        <!-- CSRF TOKEN HERE 
+         <input type="hidden" name="csrf_token" value=""/> -->
+   </form>
+    </div>
+<div >
+<div id="myactive">
+        {{_("Here is listing of my own items and bids and ways to edit them.")}}
+<ul id="myaclist">
+  
+</ul>
+        
+  
+</div>
+  <div id="myexpired">
+    {{_("Here is a list of my old items.")}}
+    <ul id="myexplist">
+     
+    </ul>
+  </div>
+</div>
+
+</div>
+  </div>
+</section>
+
+<section>
+<input type="radio" name="tabs" id="myaccount"  />
+<label class="shaded" for="myaccount"> {{_("My account")}} </label>
+<div class="tab">
+{{_("Here's info on the user account.")}}
+</div>
+</section>
+
+<section>
+<input type="radio" name="tabs" id="auctions"  />
+<label class="shaded" for="auctions">{{_("Open auctions")}}</label>
+
+<div class="tab">
+        
+
+        
+        {{_("Here's is listing of all(?) on going auctions.")}}
+<ul id="allAucs">
+  
+</ul>
+</div>
+</section>
+<section>
+        
+<input type="radio" name="tabs" id="korppi"  />
+<label class="shaded" for="korppi">{{_("Press this if you feel like it")}}</label>
+<div class="tab">
+
+  {{_(" I hope clicking helped. Have a nice day")}}
+        
+        
+</div>
+</section>
+</div>
+
+<!-- Load main frontend script -->
+ <script type="module" src="{{ url_for('static', filename='mainfront.js') }}" charset="utf-8">
+   
+ </script> 
+
+{% endblock %}
+

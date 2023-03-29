@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="{{get_locale()}}">
+  <head>
+    <title>{% block title %}{% endblock %} - {{ config['BRAND'] }}</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Upgrade http requests to https -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='windows-95-ui-kit/css/w95.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}" type="text/css" >
+
+    {# Sentry tracing for client side. See: https://docs.sentry.io/platforms/javascript/install/cdn/ #}
+    {% if config['SENTRY_DSN'] %}
+      {{sentry_trace}}
+      <script
+        src="https://browser.sentry-cdn.com/7.35.0/bundle.tracing.min.js"
+        integrity="sha384-CjDPchuHUNlGb4GlhyuebuZegU12keiasU1R69+B0VhN5ShdBb06nBWZRfGi73G1"
+        crossorigin="anonymous">
+      </script>
+      <script>
+        Sentry.onLoad(function() {
+          Sentry.init({
+            dsn: {{config['SENTRY_DSN'] | tojson}},
+            release: {{config['SENTRY_RELEASE'] | tojson}},
+            environment: {{config['SENTRY_ENVIRONMENT'] | tojson}},
+            integrations: [new Sentry.BrowserTracing()],
+          });
+        });
+      </script>
+    {% endif %}
+
+  </head>
+  <body class="bg-white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="{{url_for('views.main_page')}}">{{config['BRAND']}}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ url_for('views.main_page') }}">{{_("Home")}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('views.main_page') }}">{{_("Sell")}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gitlab.jyu.fi/13th/13-sins-of-gitlab">{{_("About")}}</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          {% if session['logged_in'] or session['admin_login'] %}
+          <li class="nav-item"><span class="nav-link" id="usernametag">{{ session['logged_in'] }}</span></li>
+          <li class="nav-item"><a href="{{ url_for('logout') }}" class="nav-link">{{_("Log Out")}}</a></li>
+          {% else %}
+          <li class="nav-item"><a href="{{ url_for('reg_page') }}" class="nav-link">{{_("Register")}}</a>
+          <li class="nav-item"><a href="{{ url_for('login_page') }}" class="nav-link">{{_("Log In")}}</a>
+                  <li class="nav-item">
+                          </li>
+            {% endif %}
+        </ul>
+
+                          <form class="form-inline" accept-charset="utf-8">
+                                  <!--<label for="aafCurr" class="nav_item"> {{_("Currency:")}} </label>-->
+       <select name="aafCurr" id="aafCurr" class="form-control mr-sm-2"   size="1">
+         
+       </select>
+                          </form>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="{{_("Search")}}" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="">{{_("Search")}}</button>
+
+        </form>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropdown-language" type="button" data-toggle="dropdown" aria-expanded="false">
+              {{_("Language")}}
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" id="locale-selector">
+              {% for _, lang in locales.items() %}
+                <a class="dropdown-item {% if lang|lower == get_locale()|lower %}active{% endif %}" href="{{ url_for(request.endpoint, **dict(request.view_args, locale=lang)) }}">{{lang.display_name}}</a>
+              {% endfor %}
+              <div hidden id="defaultcurrency">
+                      {{_("EUR")}}
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+    </nav>
+
+      <header>
+        {% block header %}
+            <h1>{{ config['BRAND'] }}</h1>
+        {% endblock %}
+      </header>
+      <main class="content">
+        {% for message in get_flashed_messages() %}
+          <div class="container">
+            <div class="flash alert alert-primary">{{ message }}</div>
+          </div>
+        {% endfor %}
+
+        {% block content %}
+          <!-- MAIN CONTENT BLOCK MISSING -->
+        {% endblock %}
+        
+      </main>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>

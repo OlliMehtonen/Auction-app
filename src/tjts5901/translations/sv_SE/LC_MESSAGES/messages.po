@@ -1,0 +1,412 @@
+# Swedish (Sweden) translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-16 14:25+0000\n"
+"PO-Revision-Date: 2023-02-16 11:44+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv_SE\n"
+"Language-Team: sv_SE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: src/tjts5901/app.py:77
+msgid "13th auction app"
+msgstr "13th auktionsappen"
+
+#: src/tjts5901/app.py:111 tests/test_i18n.py:77 tests/test_i18n.py:100
+msgid "Hello, World!"
+msgstr "Hej världen!"
+
+#: src/tjts5901/auth.py:57
+msgid "Username is required."
+msgstr "Användarnamn krävs."
+
+#: src/tjts5901/auth.py:59
+msgid "Password is required."
+msgstr "Lösenord krävs"
+
+#: src/tjts5901/auth.py:61
+msgid "Passwords do not match."
+msgstr "Lösenorden matchar inte."
+
+#: src/tjts5901/auth.py:63
+msgid "You must agree to the terms."
+msgstr "Du måste godkänna villkoren."
+
+#: src/tjts5901/auth.py:72
+msgid "You have been registered. Please log in."
+msgstr "Du har blivit registrerad. Logga in."
+
+#: src/tjts5901/auth.py:95 src/tjts5901/auth.py:98
+msgid "Incorrect username."
+msgstr "Felaktigt användarnamn."
+
+#: src/tjts5901/auth.py:100
+msgid "Incorrect password."
+msgstr "Felaktigt lösenord."
+
+#: src/tjts5901/auth.py:116
+msgid "You have been logged out."
+msgstr "Du har blivit utloggad."
+
+#: src/tjts5901/items.py:59 src/tjts5901/items.py:96
+msgid "Title is required."
+msgstr "Titel krävs."
+
+#: src/tjts5901/items.py:61
+msgid "Starting bid must be greater than 0."
+msgstr "Startbud måste vara större än 0."
+
+#: src/tjts5901/items.py:105
+msgid "Item updated successfully!"
+msgstr "Objektet har uppdaterats framgångsrikt!"
+
+#: src/tjts5901/items.py:125
+msgid "Item deleted successfully!"
+msgstr "Objektet raderades framgångsrikt!"
+
+#: src/tjts5901/templates/auction.html:24
+msgid "For sale: "
+msgstr "Till salu:"
+
+#: src/tjts5901/templates/auction.html:26
+msgid "Auction closes in:"
+msgstr "Auktionen avslutas i:"
+
+#: src/tjts5901/templates/auction.html:32
+msgid "Category: "
+msgstr "Kategori:"
+
+#: src/tjts5901/templates/auction.html:36
+msgid "Subcategory"
+msgstr "Underkategori"
+
+#: src/tjts5901/templates/auction.html:40
+msgid "Initial price: "
+msgstr "Utgångspris:"
+
+#: src/tjts5901/templates/auction.html:45
+#, fuzzy
+msgid "Description: "
+msgstr "Beskrivning"
+
+#: src/tjts5901/templates/auction.html:61
+msgid "Owner: "
+msgstr "Ägare:"
+
+#: src/tjts5901/templates/auction.html:61
+msgid "Owner data maybe here"
+msgstr "Uppgifter om ägaren kanske här"
+
+#: src/tjts5901/templates/auction.html:64
+msgid "Share on social media:"
+msgstr "Dela på sociala medier:"
+
+#: src/tjts5901/templates/auction.html:69
+msgid "Bids:"
+msgstr "Bud:"
+
+#: src/tjts5901/templates/auction.html:71
+msgid "Current top bid: "
+msgstr "Aktuellt högsta bud: "
+
+#: src/tjts5901/templates/auction.html:74
+msgid "Latest bid: "
+msgstr "Senaste budet: "
+
+#: src/tjts5901/templates/auction.html:75
+msgid "maybe later bids and their data visible."
+msgstr "kanske senare bud och deras uppgifter synliga."
+
+#: src/tjts5901/templates/auction.html:81
+msgid "Make a bid: "
+msgstr "Lägg ett bud: "
+
+#: src/tjts5901/templates/auction.html:83
+msgid "Bid!"
+msgstr "Bjud!"
+
+#: src/tjts5901/templates/auction.html:94
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/tjts5901/templates/auction.html:98
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/tjts5901/templates/auction.html:102
+msgid "Email to friend"
+msgstr "E-posta till vän"
+
+#: src/tjts5901/templates/base.html:53
+msgid "Home"
+msgstr "Hem"
+
+#: src/tjts5901/templates/base.html:56
+msgid "Sell"
+msgstr "Sälj"
+
+#: src/tjts5901/templates/base.html:59
+msgid "About"
+msgstr "Om"
+
+#: src/tjts5901/templates/base.html:65
+msgid "Log Out"
+msgstr "Logga ut"
+
+#: src/tjts5901/templates/base.html:67
+msgid "Register"
+msgstr "Registrera"
+
+#: src/tjts5901/templates/base.html:68
+msgid "Log In"
+msgstr "Logga in"
+
+#: src/tjts5901/templates/base.html:72 src/tjts5901/templates/base.html:73
+msgid "Search"
+msgstr "Sök"
+
+#: src/tjts5901/templates/base.html:78
+msgid "Language"
+msgstr "Språk"
+
+#: src/tjts5901/templates/index.html.j2:30
+msgid "My Items"
+msgstr "Mina saker"
+
+#: src/tjts5901/templates/index.html.j2:34
+msgid "Here's a form to add a new auction."
+msgstr "Här är ett formulär för att lägga till en ny auktion."
+
+#: src/tjts5901/templates/index.html.j2:40
+#, fuzzy
+msgid "Title:"
+msgstr "Titel"
+
+#: src/tjts5901/templates/index.html.j2:44
+#, fuzzy
+msgid "Choose category:"
+msgstr "Kategori:"
+
+#: src/tjts5901/templates/index.html.j2:48
+#, fuzzy
+msgid "Choose subcategory:"
+msgstr "Underkategori"
+
+#: src/tjts5901/templates/index.html.j2:54
+#, fuzzy
+msgid "Starting price:"
+msgstr "Startpris"
+
+#: src/tjts5901/templates/index.html.j2:57
+msgid "Currency:"
+msgstr "Valuta:"
+
+#: src/tjts5901/templates/index.html.j2:64
+msgid "Available in:"
+msgstr "Tillgänglig i:"
+
+#: src/tjts5901/templates/index.html.j2:70
+#, fuzzy
+msgid "Description:"
+msgstr "Beskrivning"
+
+#: src/tjts5901/templates/index.html.j2:73
+#, fuzzy
+msgid "Start auction"
+msgstr "Starta auktion"
+
+#: src/tjts5901/templates/index.html.j2:81
+msgid "Here is listing of my own items and bids and ways to edit them."
+msgstr "Här är en lista över mina egna objekt och bud och sätt att redigera dem."
+
+#: src/tjts5901/templates/index.html.j2:89
+msgid "Here is a list of my old items."
+msgstr "Här är en lista över mina gamla saker."
+
+#: src/tjts5901/templates/index.html.j2:102
+#, fuzzy
+msgid "My account"
+msgstr "Mitt konto"
+
+#: src/tjts5901/templates/index.html.j2:104
+msgid "Here's info on the user account."
+msgstr "Här är information om användarkontot."
+
+#: src/tjts5901/templates/index.html.j2:110
+msgid "Open auctions"
+msgstr "Öppna auktioner"
+
+#: src/tjts5901/templates/index.html.j2:116
+msgid "Here's is listing of all(?) on going auctions."
+msgstr "Här är en lista över alla(?) pågående auktioner."
+
+#: src/tjts5901/templates/index.html.j2:125
+msgid "Press this if you feel like it"
+msgstr "Tryck på denna om du känner för det"
+
+#: src/tjts5901/templates/index.html.j2:128
+msgid " I hope clicking helped. Have a nice day"
+msgstr "Jag hoppas att klicka hjälpte. Ha en bra dag"
+
+#: src/tjts5901/templates/auth/login.html:32
+#: src/tjts5901/templates/auth/register.html:13
+#: src/tjts5901/templates/login.html:16
+msgid "Email"
+msgstr "E-post"
+
+#: src/tjts5901/templates/auth/login.html:33
+#: src/tjts5901/templates/auth/register.html:14
+#: src/tjts5901/templates/login.html:17
+msgid "Your email"
+msgstr "Din e-post"
+
+#: src/tjts5901/templates/auth/login.html:40
+#: src/tjts5901/templates/auth/register.html:21
+#: src/tjts5901/templates/login.html:23
+msgid "Password"
+msgstr "Lösenord"
+
+#: src/tjts5901/templates/login.html:24
+msgid "Your Password"
+msgstr "Ditt lösenord"
+
+#: src/tjts5901/templates/auth/login.html:51
+#: src/tjts5901/templates/login.html:33
+msgid "Remember me"
+msgstr "Kom ihåg mig"
+
+#: src/tjts5901/templates/login.html:36
+msgid "Lost Password?"
+msgstr "Förlorat lösenord?"
+
+#: src/tjts5901/templates/auth/login.html:57
+#: src/tjts5901/templates/login.html:39
+msgid "Login"
+msgstr "Logga in"
+
+#: src/tjts5901/templates/auth/login.html:4
+msgid "Log in"
+msgstr "Logga in"
+
+#: src/tjts5901/templates/auth/login.html:25
+msgid "Sign in to our platform"
+msgstr "Logga in på vår plattform"
+
+#: src/tjts5901/templates/auth/login.html:41
+#: src/tjts5901/templates/auth/register.html:22
+msgid "Your password"
+msgstr "Ditt lösenord"
+
+#: src/tjts5901/templates/auth/login.html:54
+msgid "Lost password?"
+msgstr "Förlorat lösenordet?"
+
+#: src/tjts5901/templates/auth/login.html:61
+msgid "Not registered?"
+msgstr "Inte registrerad?"
+
+#: src/tjts5901/templates/auth/login.html:62
+msgid "Create an account"
+msgstr "Skapa ett konto"
+
+#: src/tjts5901/templates/auth/register.html:25
+#: src/tjts5901/templates/auth/register.html:26
+msgid "Confirm password"
+msgstr "Bekräfta lösenord"
+
+#: src/tjts5901/templates/auth/register.html:36
+#, python-format
+msgid "I agree to the %(terms)s"
+msgstr "Jag godkänner %(terms)s"
+
+#: src/tjts5901/templates/auth/register.html:36
+msgid "terms and conditions"
+msgstr "villkor"
+
+#: src/tjts5901/templates/auth/register.html:41
+msgid "Register account"
+msgstr "Registrera konto"
+
+#: src/tjts5901/templates/auth/register.html:45
+msgid "Already have an account?"
+msgstr "Har du redan ett konto?"
+
+#: src/tjts5901/templates/auth/register.html:46
+msgid "Login here"
+msgstr "Logga in här"
+
+#: src/tjts5901/templates/items/index.html:20
+msgid "Items on sale"
+msgstr "Varor till försäljning"
+
+#: src/tjts5901/templates/items/index.html:31
+#: src/tjts5901/templates/items/sell.html:15
+#: src/tjts5901/templates/items/update.html:17
+msgid "Title"
+msgstr "Titel"
+
+#: src/tjts5901/templates/items/index.html:32
+#: src/tjts5901/templates/items/sell.html:19
+#: src/tjts5901/templates/items/update.html:21
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/tjts5901/templates/items/index.html:33
+msgid "Starting Bid"
+msgstr "Startbud"
+
+#: src/tjts5901/templates/items/index.html:34
+msgid "Seller"
+msgstr "Säljare"
+
+#: src/tjts5901/templates/items/index.html:35
+msgid "Created At"
+msgstr "Skapat på"
+
+#: src/tjts5901/templates/items/index.html:36
+msgid "Closes At"
+msgstr "Stängs vid"
+
+#: src/tjts5901/templates/items/index.html:45
+msgid "Edit"
+msgstr "Redigera"
+
+#: src/tjts5901/templates/items/sell.html:4
+#: src/tjts5901/templates/items/sell.html:23
+msgid "Sell an Item"
+msgstr "Sälj en vara"
+
+#: src/tjts5901/templates/items/sell.html:12
+msgid "Add Item"
+msgstr "Lägg till objekt"
+
+#: src/tjts5901/templates/items/sell.html:27
+msgid "Add to Listing"
+msgstr "Lägg till i listning"
+
+#: src/tjts5901/templates/items/update.html:12
+msgid "Update Item"
+msgstr "Uppdatera objekt"
+
+#: src/tjts5901/templates/items/update.html:25
+msgid "Starting Price"
+msgstr "Startpris"
+
+#: src/tjts5901/templates/items/update.html:30
+msgid "Update Listing"
+msgstr "Uppdatera lista"
+
+#: src/tjts5901/templates/items/update.html:31
+msgid "Delete"
+msgstr "Ta bort"
+

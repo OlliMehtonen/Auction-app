@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+			{
+				"label": "Build Documentation",
+				"type": "shell",
+				"command": "pip install .[docs] && mkdocs build -f docs/mkdocs.yml",
+				"problemMatcher": []
+			}
+	]
+}

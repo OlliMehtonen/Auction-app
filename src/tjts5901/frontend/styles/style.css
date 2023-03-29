@@ -1,0 +1,140 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+} 
+
+.mainpage {
+  display: flex;
+  position: relative;
+  gap: 1em;
+  background-color: white;
+}
+
+section label {
+ display: block;
+ font-size: 2vh;
+ border: 1px solid black;
+ padding-left: 1em;
+ padding-right: 1em;
+}
+
+.shaded {
+ border-bottom-right-radius: 20px;
+ border-top-left-radius: 10px;
+ box-shadow: 6px 6px 10px    forestgreen;
+
+}
+
+section input[type=radio] {
+ display: none;
+}
+
+[type=radio]:checked ~ label {
+  background-color: darkgreen;
+  color: white;
+}
+
+[type=radio]:checked ~ label ~ * {
+  display: block;
+}
+
+.tab {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;  
+        border: 2px solid black;
+
+}
+
+li > div {
+  background-color: lightblue;
+  width: 14em;
+  min-width: 16%;
+
+  padding: 10px;
+  border: 1px solid lightgray ; 
+}
+
+li > div:nth-child(1) {
+  width: 25%;
+}
+
+.left {
+        display: inline-block;
+        width: 40%;
+}
+
+.right {
+        display: inline-block;
+        width: 40%;
+}
+
+.whitebg {
+}
+
+.collapse * {
+  border: none
+}
+
+.dropdown {
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  right: -100px;
+}
+
+
+#locale-selector a {
+  background-repeat: no-repeat;
+  background-position: 2px 50%;
+  background-size: 18px 12px;
+  padding-left: 24px;
+  image-rendering: crisp-edges;
+}
+
+.dropdown-language {
+  color: rgb(185, 185, 185);
+  padding: 1em;
+  border: none;
+  background: none;  
+}
+
+.dropdown-language:hover {
+  color:#e7e7e7;
+}
+
+#locale-selector a[href$="locale=en_GB"] {
+  background-image: url('img/en_GB.svg');
+}
+#locale-selector a[href$="locale=fi_FI"] {
+  background-image: url('img/fi_FI.svg');
+}
+#locale-selector a[href$="locale=sv_SE"] {
+  background-image: url('img/sv_SE.svg');
+}
+#locale-selector a[href$="locale=cs_CZ"] {
+  background-image: url('img/cs_CZ.svg');
+}
+#locale-selector a[href$="locale=ja_JP"] {
+  background-image: url('img/ja_JP.svg');
+}
+#locale-selector a[href$="locale=sk_SK"] {
+  background-image: url('img/sk_SK.svg');
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 64em
+}

@@ -1,0 +1,372 @@
+# Japanese (Japan) translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-21 11:49+0000\n"
+"PO-Revision-Date: 2023-02-21 11:53+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja_JP\n"
+"Language-Team: ja_JP <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: src/tjts5901/app.py:77
+msgid "13th auction app"
+msgstr "オークションアプリ"
+
+#: src/tjts5901/app.py:111 tests/test_i18n.py:77 tests/test_i18n.py:100
+msgid "Hello, World!"
+msgstr "Hello, World!"
+
+#: src/tjts5901/items.py:59 src/tjts5901/items.py:96
+msgid "Title is required."
+msgstr "タイトルは必須です。"
+
+#: src/tjts5901/items.py:61
+msgid "Starting bid must be greater than 0."
+msgstr "開始入札は0より大きくなければなりません。"
+
+#: src/tjts5901/items.py:105
+msgid "Item updated successfully!"
+msgstr "アイテムの更新に成功しました!"
+
+#: src/tjts5901/items.py:125
+msgid "Item deleted successfully!"
+msgstr "アイテムの削除に成功しました!"
+
+#: src/tjts5901/templates/alogin.html:16
+#: src/tjts5901/templates/auth/login.html:32
+#: src/tjts5901/templates/auth/register.html:13
+#: src/tjts5901/templates/login.html:16
+msgid "Email"
+msgstr "電子メール"
+
+#: src/tjts5901/templates/alogin.html:17
+#: src/tjts5901/templates/auth/login.html:33
+#: src/tjts5901/templates/auth/register.html:14
+#: src/tjts5901/templates/login.html:17
+msgid "Your email"
+msgstr "あなたのメール"
+
+#: src/tjts5901/templates/alogin.html:23
+#: src/tjts5901/templates/auth/login.html:40
+#: src/tjts5901/templates/auth/register.html:21
+#: src/tjts5901/templates/login.html:23
+msgid "Password"
+msgstr "パスワード"
+
+#: src/tjts5901/templates/alogin.html:24 src/tjts5901/templates/login.html:24
+msgid "Your Password"
+msgstr "あなたのパスワード"
+
+#: src/tjts5901/templates/alogin.html:29
+#: src/tjts5901/templates/auth/login.html:57
+#: src/tjts5901/templates/login.html:39
+msgid "Login"
+msgstr "ログイン"
+
+#: src/tjts5901/templates/auction.html:27
+msgid "For sale: "
+msgstr "販売中です:"
+
+#: src/tjts5901/templates/auction.html:29
+msgid "Auction closes in:"
+msgstr "オークションの終了時間:"
+
+#: src/tjts5901/templates/auction.html:35
+msgid "Category: "
+msgstr "カテゴリ:"
+
+#: src/tjts5901/templates/auction.html:39
+msgid "Subcategory"
+msgstr "サブカテゴリ:"
+
+#: src/tjts5901/templates/auction.html:43
+msgid "Initial price: "
+msgstr "初期価格です:"
+
+#: src/tjts5901/templates/auction.html:48
+msgid "Description: "
+msgstr "説明文:"
+
+#: src/tjts5901/templates/auction.html:64
+msgid "Owner: "
+msgstr "所有者: "
+
+#: src/tjts5901/templates/auction.html:71
+msgid "Bids:"
+msgstr "入札:"
+
+#: src/tjts5901/templates/auction.html:73
+msgid "Current top bid: "
+msgstr "現在の最高入札価格です:"
+
+#: src/tjts5901/templates/auction.html:76
+msgid "Latest bid: "
+msgstr "最新の入札額です:"
+
+#: src/tjts5901/templates/auction.html:84
+msgid "Make a bid: "
+msgstr "入札してください:"
+
+#: src/tjts5901/templates/auction.html:88
+msgid "Bid!"
+msgstr "入札してください!"
+
+#: src/tjts5901/templates/auction.html:103
+msgid "Share on social media:"
+msgstr "ソーシャルメディアで共有:"
+
+#: src/tjts5901/templates/auction.html:109
+msgid "Twitter"
+msgstr "ツイッター"
+
+#: src/tjts5901/templates/auction.html:113
+msgid "Facebook"
+msgstr "フェイスブック"
+
+#: src/tjts5901/templates/auction.html:117
+msgid "Email to friend"
+msgstr "友達にメールする"
+
+#: src/tjts5901/templates/base.html:53
+msgid "Home"
+msgstr "ホーム"
+
+#: src/tjts5901/templates/base.html:56
+msgid "Sell"
+msgstr "売る"
+
+#: src/tjts5901/templates/base.html:59
+msgid "About"
+msgstr "バージョン情報"
+
+#: src/tjts5901/templates/base.html:65
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: src/tjts5901/templates/base.html:67
+msgid "Register"
+msgstr "登録"
+
+#: src/tjts5901/templates/base.html:68
+msgid "Log In"
+msgstr "ログイン"
+
+#: src/tjts5901/templates/base.html:75 src/tjts5901/templates/index.html.j2:58
+msgid "Currency:"
+msgstr "通貨:"
+
+#: src/tjts5901/templates/base.html:81 src/tjts5901/templates/base.html:82
+msgid "Search"
+msgstr "検索:"
+
+#: src/tjts5901/templates/base.html:88
+msgid "Language"
+msgstr "検索"
+
+#: src/tjts5901/templates/base.html:95
+msgid "EUR"
+msgstr "ユーロ"
+
+#: src/tjts5901/templates/index.html.j2:30
+msgid "My Items"
+msgstr "マイアイテム"
+
+#: src/tjts5901/templates/index.html.j2:34
+msgid "Here's a form to add a new auction."
+msgstr "新しいオークションを追加するフォームはこちらです。"
+
+#: src/tjts5901/templates/index.html.j2:40
+msgid "Title:"
+msgstr "タイトル"
+
+#: src/tjts5901/templates/index.html.j2:44
+msgid "Choose category:"
+msgstr "カテゴリを選択してください:"
+
+#: src/tjts5901/templates/index.html.j2:48
+msgid "Choose subcategory:"
+msgstr "サブカテゴリを選択してください:"
+
+#: src/tjts5901/templates/index.html.j2:54
+msgid "Starting price:"
+msgstr "開始価格:"
+
+#: src/tjts5901/templates/index.html.j2:65
+msgid "Available in:"
+msgstr "利用可能な地域:"
+
+#: src/tjts5901/templates/index.html.j2:71
+msgid "Description:"
+msgstr "説明:"
+
+#: src/tjts5901/templates/index.html.j2:74
+msgid "Start auction"
+msgstr "オークション開始"
+
+#: src/tjts5901/templates/index.html.j2:82
+msgid "Here is listing of my own items and bids and ways to edit them."
+msgstr "自分の出品物や入札の一覧とその編集方法です。"
+
+#: src/tjts5901/templates/index.html.j2:90
+msgid "Here is a list of my old items."
+msgstr "これは私の古いアイテムのリストです。"
+
+#: src/tjts5901/templates/index.html.j2:103
+msgid "My account"
+msgstr "私のアカウント"
+
+#: src/tjts5901/templates/index.html.j2:105
+msgid "Here's info on the user account."
+msgstr "ユーザアカウントの情報です。"
+
+#: src/tjts5901/templates/index.html.j2:111
+msgid "Open auctions"
+msgstr "オークションを開く"
+
+#: src/tjts5901/templates/index.html.j2:117
+msgid "Here's is listing of all(?) on going auctions."
+msgstr "開催中の全てのオークションの一覧です。"
+
+#: src/tjts5901/templates/index.html.j2:126
+msgid "Press this if you feel like it"
+msgstr "気が向いたらこれを押してください"
+
+#: src/tjts5901/templates/index.html.j2:129
+msgid "I hope clicking helped. Have a nice day"
+msgstr "クリックがお役に立てれば幸いです。良い一日を"
+
+#: src/tjts5901/templates/auth/login.html:51
+#: src/tjts5901/templates/login.html:33
+msgid "Remember me"
+msgstr "私を記憶してください"
+
+#: src/tjts5901/templates/login.html:36
+msgid "Lost Password?"
+msgstr "パスワードを忘れました?"
+
+#: src/tjts5901/templates/auth/login.html:4
+msgid "Log in"
+msgstr "ログイン"
+
+#: src/tjts5901/templates/auth/login.html:25
+msgid "Sign in to our platform"
+msgstr "私たちのプラットフォームへサインインしてください"
+
+#: src/tjts5901/templates/auth/login.html:41
+#: src/tjts5901/templates/auth/register.html:22
+msgid "Your password"
+msgstr "あなたのパスワード"
+
+#: src/tjts5901/templates/auth/login.html:54
+msgid "Lost password?"
+msgstr "パスワードを紛失しましたか?"
+
+#: src/tjts5901/templates/auth/login.html:61
+msgid "Not registered?"
+msgstr "未登録ですか？"
+
+#: src/tjts5901/templates/auth/login.html:62
+msgid "Create an account"
+msgstr "アカウントを作成する"
+
+#: src/tjts5901/templates/auth/register.html:25
+#: src/tjts5901/templates/auth/register.html:26
+msgid "Confirm password"
+msgstr "パスワードの確認"
+
+#: src/tjts5901/templates/auth/register.html:36
+#, python-format
+msgid "I agree to the %(terms)s"
+msgstr "私は%(条件)に同意しま"
+
+#: src/tjts5901/templates/auth/register.html:36
+msgid "terms and conditions"
+msgstr "利用規約"
+
+#: src/tjts5901/templates/auth/register.html:41
+msgid "Register account"
+msgstr "アカウント登録"
+
+#: src/tjts5901/templates/auth/register.html:45
+msgid "Already have an account?"
+msgstr "すでにアカウントを持っていますか？"
+
+#: src/tjts5901/templates/auth/register.html:46
+msgid "Login here"
+msgstr "ここでログインしてください"
+
+#: src/tjts5901/templates/items/index.html:20
+msgid "Items on sale"
+msgstr "販売中のアイテム"
+
+#: src/tjts5901/templates/items/index.html:31
+#: src/tjts5901/templates/items/sell.html:15
+#: src/tjts5901/templates/items/update.html:17
+msgid "Title"
+msgstr "タイトル"
+
+#: src/tjts5901/templates/items/index.html:32
+#: src/tjts5901/templates/items/sell.html:19
+#: src/tjts5901/templates/items/update.html:21
+msgid "Description"
+msgstr "説明"
+
+#: src/tjts5901/templates/items/index.html:33
+msgid "Starting Bid"
+msgstr "入札開始"
+
+#: src/tjts5901/templates/items/index.html:34
+msgid "Seller"
+msgstr "出品者"
+
+#: src/tjts5901/templates/items/index.html:35
+msgid "Created At"
+msgstr "作成日時"
+
+#: src/tjts5901/templates/items/index.html:36
+msgid "Closes At"
+msgstr "終了日時"
+
+#: src/tjts5901/templates/items/index.html:45
+msgid "Edit"
+msgstr "編集"
+
+#: src/tjts5901/templates/items/sell.html:4
+#: src/tjts5901/templates/items/sell.html:23
+msgid "Sell an Item"
+msgstr "アイテムを売る"
+
+#: src/tjts5901/templates/items/sell.html:12
+msgid "Add Item"
+msgstr "アイテムを追加する"
+
+#: src/tjts5901/templates/items/sell.html:27
+msgid "Add to Listing"
+msgstr "出品に追加"
+
+#: src/tjts5901/templates/items/update.html:12
+msgid "Update Item"
+msgstr "アイテムを更新します"
+
+#: src/tjts5901/templates/items/update.html:25
+msgid "Starting Price"
+msgstr "開始価格"
+
+#: src/tjts5901/templates/items/update.html:30
+msgid "Update Listing"
+msgstr "リストを更新します"
+
+#: src/tjts5901/templates/items/update.html:31
+msgid "Delete"
+msgstr "削除"
+
