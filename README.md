@@ -1,20 +1,11 @@
-# Olympiaprojekti
-Interaktiivinen kartta, josta voidaan tarkkailla eri valtioiden olympiadataa.  
-[Linkki toimivalle sivulle](https://ollimehtonen.github.io/Olympiasivu/)
-###### Pääikkuna
-![](https://github.com/OlliMehtonen/Olympiaprojekti/blob/main/Debug/Capture.PNG)
-## Käytetty data
-* [Summer & Winter Olympic Games](https://data.world/johayes13/summer-winter-olympic-games)
-* [120 years of Olympic history: athletes and results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
-* [Tokyo 2020 Olympics Medal Count](https://www.kaggle.com/jamieeeee/tokyo-2020-olympics-medal-count)
-## Työkalut
-* D3
-* Pandas
-* Git
-## Jäsenet
-* Olli Mehtonen 
-* Joonas Kanninen 
-* Joel Lintunen
-* Johannes Heikkilä
-## Lisenssi
-MIT
+# Huutokauppa projekti
+
+Aika simppeli huutokauppasivu, mihin voi luoda käyttäjän, jolla voi ostaa tai myydä asioita. Tehty 3 henkilön ryhmässä. Alempana esimerkkivideo sivun toiminnasta, sekä [lyhyt kirjoitelma](https://github.com/OlliMehtonen/Auction-app/files/11096262/Final_report.pdf), jossa käydään läpi tarkemmin käytetyt teknologiat, joihin kuuluu esimerkiksi:
+- Docker
+- Azure
+- Sentry.io
+- Flask (backend)
+- Pytest
+- jne.
+
+https://user-images.githubusercontent.com/83189895/228420030-510483b6-1707-4a58-a5e6-6fc3c9fa0d8b.mov
