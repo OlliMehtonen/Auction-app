@@ -2,4 +2,5 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-
+app/* linguist-documentation=false
+app/* linguist-vendored
